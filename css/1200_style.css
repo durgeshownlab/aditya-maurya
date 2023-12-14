@@ -1,0 +1,137 @@
+@media screen and (max-width: 1200px) 
+{
+    .banner-text-letter span
+    {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-wrap: nowrap;
+    }
+
+    .quotes span
+    {
+        font-family: EB Garamond !important;
+        padding: 0 310px;
+    }
+
+    .notes-text
+    {
+        width: 80%;
+    }
+
+    .about-me
+    {
+        width: 100%;
+        /* height: max-content; */
+        background-image: linear-gradient(90deg, #000000, #000000) !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .about-me-image
+    {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .about-me-image img
+    {
+        width: 100%;
+        height: auto;   
+    }
+
+    .about-me-content
+    {
+        width: 100% !important;
+        height: auto;
+        color: #fff;
+        padding: 20px 50px;
+    }
+
+    .about-me-content p
+    {
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: -4px;
+    }
+
+    /* code for my mentor section  */
+    .mentor-image-container
+    {
+        width: 40% !important;
+    }
+
+    .mentor-text
+    {
+        width: 60% !important;
+    }
+
+    /* code for my team  */
+    .card-container 
+    {
+        grid-template-columns: 250px 250px 250px !important;
+    }
+
+    /* code for my book  */
+    .book-card-container
+    {
+        width: 90% !important;
+    }
+
+    /* code for modal  */
+    .modal 
+    {
+        width: 99% !important;
+        height: auto !important;
+    }
+
+    #video-player 
+    {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    /* code for ngo work  */
+
+    .first-row 
+    {
+        flex-direction: column-reverse !important;
+    }
+
+    .first-row .image
+    {
+        width: 100% !important;
+    }
+    .first-row .content
+    {
+        width: 100% !important;
+    }
+
+    .ngo-gallery .gallery-row
+    {
+        justify-content: space-between !important;
+        gap: 50px !important;
+    }
+
+    .ngo-gallery .gallery-video-row
+    {
+        justify-content: space-between !important;
+        gap: 40px !important;
+    }
+
+    .ngo-gallery .gallery-row img
+    {
+        width: 45% !important;
+    }
+
+    .ngo-gallery .gallery-video-row .reel-container
+    {
+        width: 45% !important;
+    }
+
+    
+
+}

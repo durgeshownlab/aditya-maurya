@@ -1,0 +1,753 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+}
+
+/* code for modal */
+.modal-container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #000000bf;
+    position: fixed;
+    z-index: 99;
+    display: none;
+}
+
+.close
+{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    z-index: 999;
+}
+
+.close:hover 
+{
+    background-color: #fff;
+    color: #000000;
+}
+.close:hover > i
+{
+    color: #000000;
+}
+
+.close i
+{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.modal 
+{
+    height: 99%;
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+#video-player 
+{
+    height: 100%;
+    width: auto;
+}
+
+/* code for header  */
+.header
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.header-left
+{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container
+{
+    width: auto;
+    height: 100%;
+}
+
+.logo
+{
+    width: 100%;
+    height: 100%;
+}
+
+.logo img
+{
+    height: 100%;
+    width: auto;
+}
+
+.menu-toggle-container
+{
+    width: auto;
+    height: 100%;
+    display: flex;
+    display: none;
+}
+
+.menu-toggle
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-toggle i
+{
+    color: #fff;
+    font-size: 28px;
+}
+
+
+
+/* code for header right and menu start*/
+.header-right
+{
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid rgb(0, 255, 162); */
+    padding-right: 25px;
+    color: #fff;
+    z-index: 2;
+    /* user-select: none; */
+}
+
+.menubar-container
+{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid #fff; */
+}
+
+.menubar-container ul
+{
+    width: auto;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menubar-container ul li
+{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menubar-container ul li:hover > a
+{
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.menubar-container ul li:hover > ul
+{
+    display: flex;
+}
+
+.menubar-container ul li:hover > a i
+{
+    transform: rotate(180deg);
+}
+
+.menubar-container ul li a
+{
+    width: 100%;
+    height: 100%;
+    color: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-wrap: nowrap;
+    padding: 0 20px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.menubar-container ul li a i
+{
+    margin-left: 10px;
+    transition: all .3s ease;
+}
+
+.active > a
+{
+    color: #fff !important;
+}
+
+/* code for sub menu start */
+.has-submenu
+{
+    position: relative;
+}
+
+.has-submenu ul
+{
+    width: max-content;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    left: 0;
+    background-color: #000;
+    display: none;
+}
+
+.has-submenu ul li
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.has-submenu ul li a
+{
+    padding: 0 0;
+    padding-left: 10px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+/* code for sub menu end */
+
+/* menu code end  */
+
+/* ---------------------------------------------- */
+
+/* code for banner start  */
+
+
+
+/* code for banner end  */
+
+.banner-container
+{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    background-image: url(/images/banner\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* cursor: url('images/blue-cursor.png'), auto; */
+}
+
+.name
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.name span
+{
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 20px;
+    text-wrap: nowrap;
+}
+
+.banner-big-text
+{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-text-letter
+{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text-letter h1
+{
+    color: #fff;
+    font-family: EB Garamond;
+    font-size: 200px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: -50px 0;
+    /* letter-spacing: 50px; */
+    text-align: center;
+    transition: all .5s ease;
+}
+
+.banner-text-letter span
+{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    transition: all 0.5s ease;
+}
+
+.slogan-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20%;
+}
+
+.line 
+{
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.slogan-container span
+{
+    color: #fff;
+    font-family: EB Garamond;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #34333357;
+    padding: 5px 10px;
+    font-weight: lighter;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    text-wrap: nowrap;
+}
+
+.arrow-down-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+}
+
+.arrow-down-container span i
+{
+    font-size: 50px;
+    color: #fff;
+    animation: arrow-slide 1s both infinite;
+    transition: all 1s ease;
+}
+
+@keyframes arrow-slide
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50% 
+    {
+        transform: translateY(15px);
+    }
+    100% 
+    {
+        transform: translateY(0);
+    }
+}
+
+/* code for quotes  */
+
+.quotes-container
+{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(images/WhatsApp\ Image\ 2023-06-12\ at\ 14.19.09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; 
+    background-attachment: fixed; */
+}
+
+.quotes-container:hover > i
+{
+    filter: drop-shadow(1px 1px 30px #fff) !important;
+}
+
+.quotes
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.quotes span
+{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 100;
+    padding: 0 510px;
+}
+
+.quotes span img
+{
+    color: #fff;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 20px #fff) !important;
+}
+
+.signature
+{
+    padding-top: 50px;
+}
+
+.signature img
+{
+
+    border-bottom: 3px solid #fff;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border: 3px solid transparent; */
+    border-radius: 50px;
+    padding: 20px 50px;
+    /* animation: sign-animation 4s linear infinite; */
+}
+
+@keyframes sign-animation
+{
+    0%
+    {
+        border-top: 3px solid #fff;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+    25%
+    {
+        border-right: 3px solid #fff;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    50%
+    {
+        border-bottom: 3px solid #fff;
+        border-bottom-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    75%
+    {
+        border-left: 3px solid #fff;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    100%
+    {
+        border-top: 3px solid #000000;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+}
+
+/* code for notes start */
+
+.notes-container
+{
+    width: 100%;
+    height: auto;
+    background-color: #ebe8e3;
+    /* border: 2px solid red; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20vh 0;
+}
+
+.notes-title
+{
+    padding: 20px 0;
+}
+
+.notes-title span
+{
+    font-family: EB Garamond;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000;
+}
+
+.notes-text
+{
+    width: 70%;
+    text-align: justify;
+    padding: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.notes-text p
+{
+    text-align: justify;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+.notes-text p b
+{
+    font-family: EB Garamond;
+}
+
+/* code for my life philosophy start */
+
+.my-life-philosophy-container
+{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    background-image: url(/images/WhatsApp\ Image\ 2023-06-12\ at\ 14.19.09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; 
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-life-philosophy
+{
+    width: 100%;
+    height: auto;
+    background-color: #00000072;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.my-life-philosophy-title
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.my-life-philosophy-title h1
+{
+    font-family: EB Garamond;
+    font-weight: 200;
+    border-bottom: 2px solid #fff;
+}
+.my-life-philosophy-content
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.my-life-philosophy-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px;
+    border-right: 2px solid #ffffff;
+}
+
+.my-life-philosophy-card:last-child
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px;
+    border-right: none;
+}
+
+.my-life-philosophy-card h1
+{
+    color: #000000;
+    font-size: 99px;
+    font-size: EB Garamond;
+    font-style: italic;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+}
+
+.philosophy-text
+{
+    padding: 0 20px ;
+}
+
+.philosophy-para
+{
+    width: 170px !important;
+    text-wrap: wrap;
+    font-family: EB Garamond;
+}
+
+.philosophy-para b
+{
+    font-size: 30px;
+    font-family: EB Garamond;
+    font-weight: 500;
+}
+
+.philosophy-para span
+{
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+/* code for my life philosophy end */
+
+
+/* code for galary container start  */
+
+.gallery-container
+{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+    /* background-image: linear-gradient(135deg, #333438e9, #0000003b), url(/images/WhatsApp\ Image\ 2023-10-06\ at\ 23.45.26.jpeg); */
+    /* background-image: url(images/nbghm.jpg); */
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    /* padding: 10px; */
+}
+
+.gallery 
+{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    position: relative;
+}
+
+.gallery-text
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    z-index: 6 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-text h1
+{
+    width: max-content;
+    height: auto;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+    font-family: EB Garamond !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.gallery-card-container
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+}
+
+.gallery-card-row
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gallery-card-column
+{
+    width: 30%;
+    min-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.gallery-card-column img
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}

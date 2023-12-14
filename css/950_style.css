@@ -1,0 +1,97 @@
+@media screen and (max-width: 950px) 
+{
+    .banner-text-letter span
+    {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-wrap: nowrap;
+    }
+
+    .quotes span
+    {
+        font-family: EB Garamond !important;
+    }
+
+    .notes-text
+    {
+        width: 90%;
+    }
+
+    .gallery-card-container
+    {
+        padding: 50px 50px !important;
+    }
+
+    /* code for career width logo and text  */
+
+    .logo-text 
+    {
+        width: 95% !important;
+    }
+
+    /* code for my mentor section  */
+    .my-mentor-content
+    {
+        width: 250px !important;
+        flex-direction: column !important;
+    }
+
+    .mentor-image-container
+    {
+        width: 100% !important;
+    }
+
+    .mentor-text
+    {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    .mentor-text p
+    {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* code for book page  */
+    
+    /* code for breadcrumb  */
+    .breadcrumb-container
+    {
+        height: 200px !important;
+    }
+
+    /* code for my book  */
+
+    .book-card-container
+    {
+        flex-direction: column !important;
+    }
+
+    .book-image
+    {
+        width: 100% !important;
+    }
+
+    .book-content
+    {
+        width: 100% !important;
+    }  
+
+    /* code for blogs page  */
+    .blogs-list-container
+    {
+        padding: 20px 50px !important;
+    }
+    .blog-list 
+    {
+        padding: 20px 20px !important;
+    }
+
+
+
+}

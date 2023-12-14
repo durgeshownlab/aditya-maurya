@@ -1,0 +1,400 @@
+.about-banner-container
+{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.about-banner
+{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, #00000074, #00000089), url(/images/about-me-banner-big.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-banner-text
+{
+    width: 70%;
+    text-align: center;
+    font-family: EB Garamond;
+}
+
+.about-banner-text span
+{
+    text-align: center;
+    font-family: EB Garamond;
+    font-style: italic;
+    color: #ddcd94;
+}
+
+/* code for about me image and content */
+.about-me-container
+{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    /* border: 1px solid red; */
+    background-color: #ebe7e3;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.about-me-header
+{
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    margin-bottom: 20px;
+}
+
+.about-me-header p
+{
+    color: #000;
+    font-size: 20px;
+    font-family: EB Garamond;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #363636;
+    border-bottom: 2px solid #363636;
+}
+
+.about-me
+{
+    width: 100%;
+    height: max-content;
+    background-image: linear-gradient(90deg, #000, #7d7d7d);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about-me-image
+{
+    width: 50%;
+    height: auto;
+}
+
+.about-me-image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.about-me-content
+{
+    width: 50%;
+    height: auto;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+.about-me-content p
+{
+    font-size: 16px;
+    text-align: justify;
+    font-family: poppins;
+}
+
+/* code for career width logo and text  */
+
+.career-width-logo-text-container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.logo-text 
+{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid red; */
+    /* border-radius: 20px; */
+    /* box-shadow: 0 0 10px #c0c0c0; */
+    padding: 50px 150px;
+}
+
+.text 
+{
+    width: 100%;
+    height: auto;
+}
+
+.text p
+{
+    width: 100%;
+    height: 100%;
+    font-family: GB Garamond;
+    font-size: 25px;
+    text-align: justify;
+    font-style: italic;
+    /* padding-top: 100px;
+    padding-bottom: 50px; */
+}
+
+.career-width-logo
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.career-width-logo img
+{
+    width: auto;
+    height: 150px;
+    margin: 0 auto;
+    transition: all .5s ease;
+}
+
+/* code for my mentor section  */
+
+.my-mentor-container
+{
+    width: 100%;
+    height: auto;
+    background-color: #ebe7e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.my-mentor-heading
+{
+
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+}
+
+.my-mentor-heading p
+{
+    width: auto;
+    color: #000;
+    font-size: 20px;
+    font-family: EB Garamond;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #363636;
+    border-bottom: 2px solid #363636;
+}
+
+.my-mentor-content
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mentor-image-container
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentor-image
+{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid rgb(52, 51, 51);
+    border-radius: 50px;
+}
+
+.mentor-image img
+{
+    width: 100px;
+}
+
+.mentor-image-container h3
+{
+    font-family: poppins;
+    color: #656565;
+    text-align: center;
+}
+.mentor-image-container p
+{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 25px;
+}
+
+.mentor-text
+{
+    width: 70%;
+    padding-left: 10px;
+}
+
+.mentor-text p
+{
+    font-family: poppins;
+    /* text-transform: capitalize; */
+    /* font-style: italic; */
+}
+
+/* code for my team section  */
+
+.my-team-container
+{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.my-team-heading
+{
+
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+}
+
+.my-team-heading p
+{
+    width: auto;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: EB Garamond;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+.my-team-heading span
+{
+    margin-top: 10px;
+    font-family: poppins;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.card-container 
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    /* grid-template-columns: repeat(auto-fill, 2fr); */
+    justify-content: space-evenly;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    gap: 15px;
+    /* background-color: #ffffff; */
+    margin: 50px 0;
+    padding: 0 20px;
+}
+
+.team-card 
+{
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #ffffff; */
+    text-align: center;
+    padding: 30px 10px;
+
+}
+
+.card-image
+{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-image img
+{
+    width: 150px;
+}
+
+.card-name
+{
+    
+}
+
+.card-name p
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: poppins;
+    text-transform: capitalize;
+    margin: 5px;
+    color: #f2f2f2;
+}
+
+.card-designation
+{
+    
+}
+
+.card-designation p
+{
+    font-size: 12px;
+    font-family: poppins;
+    text-transform: capitalize;
+    color: #f1f1f1;
+}
+
+
+
+
+

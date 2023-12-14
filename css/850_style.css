@@ -1,0 +1,55 @@
+@media screen and (max-width: 950px) 
+{
+    .banner-text-letter h1
+    {
+        color: #fff;
+        font-family: EB Garamond;
+        font-size: 120px;
+        font-weight: 100;
+        text-transform: uppercase;
+        margin: -20px 0;
+        /* letter-spacing: 50px; */
+        text-align: center;
+    }
+
+    .banner-text-letter span
+    {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-wrap: nowrap;
+    }
+
+    .quotes span
+    {
+        font-family: EB Garamond !important;
+    }
+
+    /* code for my team  */
+    .card-container 
+    {
+        grid-template-columns: 250px 250px !important;
+    }
+
+    /* code for my book */
+    .ecommerce-image
+    {
+        height: 75px !important;
+    }
+
+    /* code for blogs page  */
+    .blogs-list-container
+    {
+        padding: 20px 30px !important;
+    }
+
+    /* code for travel  */
+    .travel-page 
+    {
+        width: 95% !important;
+    }
+    
+}

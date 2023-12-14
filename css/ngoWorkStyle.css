@@ -1,0 +1,156 @@
+.breadcrumb-container
+{
+    width: 100%;
+    height: 300px;
+    /* background-color: #000000; */
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.581), #0000006d), url(/images/breadcrumb-images/ngo-work-breadcrumb.jpg);
+    background-position: center;
+    background-size: cover;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.breadcrumb-container h1
+{
+    font-family: poppins;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.my-ngo-work-container
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    /* border: 1px solid red; */
+}
+
+.first-row
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+
+.first-row .image
+{
+    width: 45%;
+    height: 100%;
+}
+.first-row .image img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.first-row .content
+{
+    width: 50%;
+    height: 100%;
+}
+
+.first-row .content h1
+{
+    margin-bottom: 20px;
+}
+.first-row .content h1 span
+{
+    color: #f75b69;
+}
+.first-row .content p
+{
+    line-height: 30px;
+}
+
+.second-row 
+{
+    width: 100%;
+    height: auto;
+}
+
+.second-row .content
+{
+    width: 100%;
+    height: auto;
+}
+
+.second-row .content p
+{
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+/* code for ngo gallery */
+.ngo-gallery
+{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.ngo-gallery .gallery-row
+{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ngo-gallery .gallery-row img 
+{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+.ngo-gallery .gallery-video-row
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.ngo-gallery .gallery-video-row .reel-container
+{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ngo-gallery .gallery-video-row .reel-container video
+{
+    width: 100%;
+    height: auto;
+}
+
+.ngo-gallery .gallery-video-row .reel-container .play-btn
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #0000006d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ngo-gallery .gallery-video-row .reel-container .play-btn i
+{
+    color: #fff;
+    font-size: 4rem;
+}
+
