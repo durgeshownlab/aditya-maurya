@@ -263,7 +263,7 @@
     height: auto;
     min-height: 100vh;
     /* border: 2px solid red; */
-    background-image: url(/images/banner\ 3.jpg);
+    background-image: url(../images/banner\ 3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -567,7 +567,7 @@
     height: auto;
     min-height: 100vh;
     /* border: 2px solid red; */
-    background-image: url(/images/WhatsApp\ Image\ 2023-06-12\ at\ 14.19.09.jpg);
+    background-image: url(../images/WhatsApp\ Image\ 2023-06-12\ at\ 14.19.09.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom; 
